@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html {
+  background-color: #0b0b12;
+}
+
+body {
+  @apply text-white bg-gradient-to-b from-black via-[#0b0b12] to-indigo-950 min-h-screen antialiased;
+}
+
+.container {
+  @apply max-w-6xl mx-auto px-4;
+} 
